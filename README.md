@@ -98,6 +98,6 @@ Calibration: A low ECE (e.g., < 0.05) indicates the model's confidence scores ar
 Uncertainty: The Average Variance provides a baseline for in-distribution data. To test OOD detection, you can run the trained model on a different dataset (e.g., IMDB reviews) and verify that the average variance is significantly higher.
 
 Acknowledgements
-Hugging Face for the transformers library and pre-trained models.
-
-The GPyTorch Team for their flexible and powerful Gaussian Process library.
+1. Hugging Face for the transformers library and pre-trained models.
+2. The GPyTorch Team for their flexible and powerful Gaussian Process library.
+3. All concerned research contributors.
